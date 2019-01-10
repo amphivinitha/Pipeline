@@ -1,7 +1,4 @@
 pipeline {
-    agent {
-        docker 'maven:Default'
-    }
     stages {
         
         stage("compile") {
